@@ -3,7 +3,7 @@
 // 2. localhost during local dev,
 // 3. else fall through to the deployed Render origin (set after backend deploy).
 
-const PROD_FALLBACK = 'https://CHANGE_ME.onrender.com';
+const PROD_FALLBACK = 'https://bajaj-qualifier-task-2.onrender.com';
 
 const host = typeof window !== 'undefined' ? window.location.hostname : '';
 const localDev = /^(localhost|127\.)/.test(host);
