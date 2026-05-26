@@ -98,8 +98,14 @@ body {
 }
 .create-form .row-2col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+.create-form input,
+.create-form textarea,
+.create-form select {
+  min-width: 0;
+  max-width: 100%;
 }
 .err {
   color: var(--danger);
